@@ -1,0 +1,9 @@
+---
+- hosts: localhost
+  gather_facts: false
+
+  tasks:
+
+    - name: Test Deployment
+      debug:
+        msg: "Ansible Deployment Successful"
